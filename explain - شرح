@@ -41,6 +41,10 @@ WantedBy=multi-user.target
 sudo systemctl enable changemac@enp10s0.service
 بعد @ تضيف اسم كرت الشبكة حقتك وبكذا 
 ان شاء الله راح يشتغل معك 
+
+واذا اردت الغاء تشغيل الملف مع التشغيل
+sudo systemctl disable changemac@enp10s0.service
+وبعد @ اضف كرة الشبكة
 وشكرا
 
 المصدر
