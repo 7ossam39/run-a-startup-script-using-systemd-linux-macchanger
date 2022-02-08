@@ -1,0 +1,6 @@
+سلام عليكم
+شرح طريقة تغيير mac address
+مع تشغيل النظام
+
+تحميل الاداة 
+sudo apt install macchanger
