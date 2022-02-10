@@ -9,7 +9,7 @@ sudo apt install macchanger
 macchanger -s 
 بعد 
 s
-تحط اسم كرية الشبكة
+تحط اسم كرت الشبكة
 
 يمديك تبحث عن الاداة وتشوف شرح لها
 
@@ -21,6 +21,8 @@ gedit admin:///etc/systemd/system/changemac@.service
 داخل الملف هاذا
 changemac@.service
 تضيف هاذي
+_________________________________
+
 [Unit]
 Description=changes mac for %I
 Wants=network.target
@@ -35,6 +37,7 @@ RemainAfterExit=yes
 
 [Install]
 WantedBy=multi-user.target
+______________________________________
 وتحفظ الملف
 بعدها تضيف الامر هاذا عشان يشتغل الملف مع التشغيل
 
