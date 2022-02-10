@@ -13,7 +13,7 @@ s
 
 يمديك تبحث عن الاداة وتشوف شرح لها
 
-انشاء ملف 
+إنشاء ملف 
 sudo touch /etc/systemd/system/changemac@.service
 بعدها
 gedit admin:///etc/systemd/system/changemac@.service
@@ -47,7 +47,7 @@ sudo systemctl enable changemac@enp10s0.service
 
 واذا اردت الغاء تشغيل الملف مع التشغيل
 sudo systemctl disable changemac@enp10s0.service
-وبعد @ اضف كرة الشبكة
+وبعد @ اضف كرت الشبكة
 وشكرا
 
 المصدر
