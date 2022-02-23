@@ -16,6 +16,7 @@ s
 إنشاء ملف 
 sudo touch /etc/systemd/system/changemac@.service
 بعدها
+
 gedit admin:///etc/systemd/system/changemac@.service
 
 داخل الملف هاذا
